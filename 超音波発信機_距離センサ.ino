@@ -3,7 +3,7 @@ int ECHO = 2;
 
 double duration = 0;
 double distance = 0;
-double speed_of_sound = 331.5 + 0.6 * 25; //気温が25度の場合
+double speed_of_sound = 331.5 + 0.6 * 25; //気温が25度の時
 
 void setup() {
   Serial.begin( 9600 );
